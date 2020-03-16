@@ -1,12 +1,8 @@
 #pragma once
 
-
-
 #include<cstddef>
 
-
 namespace mystl {
-
 	template <typename T>
 	class allocator {
 	public:

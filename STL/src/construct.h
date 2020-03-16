@@ -59,5 +59,4 @@ namespace mystl {
 			value_type(Forwarditerator)>());
 	}
 
-
 }

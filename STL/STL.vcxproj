@@ -138,12 +138,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Test\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="allocator.h" />
-    <ClInclude Include="construct.h" />
-    <ClInclude Include="iterator.h" />
+    <ClInclude Include="src\allocator.h" />
+    <ClInclude Include="src\construct.h" />
+    <ClInclude Include="src\iterator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

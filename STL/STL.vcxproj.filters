@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="src\allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\construct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iterator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="construct.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="allocator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="Test\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
