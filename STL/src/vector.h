@@ -26,13 +26,16 @@ namespace {
 		iterator _cap;
 	public:
 		vector():_begin(nullptr),_end(nullptr),_cap(nullptr){}
+		vector(size_type n) {
+			_begin = allocator_type::allocate(n);
+			
+		}
 		difference_type size() {
 			return _end - _begin;
 		}
 		difference_type capacity() {
 			return _cap - _begin;
 		}
-
 
 		iterator& begin() {
 			return _begin;
@@ -66,6 +69,8 @@ namespace {
 		const_reference back()const {
 			return *(_end-1);
 		}
+
+
 
 
 

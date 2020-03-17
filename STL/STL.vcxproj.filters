@@ -27,6 +27,12 @@
     <ClInclude Include="src\vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\uninitialized.h.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test\main.cpp">

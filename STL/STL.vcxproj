@@ -141,9 +141,11 @@
     <ClCompile Include="Test\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\algobase.h" />
     <ClInclude Include="src\allocator.h" />
     <ClInclude Include="src\construct.h" />
     <ClInclude Include="src\iterator.h" />
+    <ClInclude Include="src\uninitialized.h.h" />
     <ClInclude Include="src\vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
