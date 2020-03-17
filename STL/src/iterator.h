@@ -3,8 +3,6 @@
 
 
 namespace mystl {
-
-
 	//五种类型的迭代器
 	struct input_iterator_tag {};
 	struct output_iterator_tag {};

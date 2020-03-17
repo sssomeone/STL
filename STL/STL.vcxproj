@@ -144,6 +144,7 @@
     <ClInclude Include="src\allocator.h" />
     <ClInclude Include="src\construct.h" />
     <ClInclude Include="src\iterator.h" />
+    <ClInclude Include="src\vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
