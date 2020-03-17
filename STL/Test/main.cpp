@@ -1,11 +1,17 @@
 #include<iostream>
 #include<vector>
-#include"allocator.h"
+#include<list>
 
+using namespace std;
+
+template<class T>
+void add(T &a) {
+	T b=100;
+	++b;
+
+}
 int main() {
-	std::vector<int, mystl::allocator<int>>v;
-	for (int i = 0; i < 10; ++i)v.push_back(i);
-
-
+	const int a = 10;
+	add(a);
 	return 0;
 }

@@ -43,6 +43,16 @@ namespace mystl {
 		return result;
 	}
 
+	template<class Inputiterator,class Outputiterator>
+	Outputiterator unchecked_copy(Inputiterator first, Inputiterator last,
+		Outputiterator result) {
+		return unchecked_copy_cat(first, last, result, iterator_category(first));
+	}
+
+
+
+
+
 
 
 
