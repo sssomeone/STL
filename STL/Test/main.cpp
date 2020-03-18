@@ -1,17 +1,13 @@
 #include<iostream>
 #include<vector>
 #include<list>
-
+#include"../src/algobase.h"
 using namespace std;
 
-template<class T>
-void add(T &a) {
-	T b=100;
-	++b;
 
-}
 int main() {
 	const int a = 10;
-	add(a);
+	cout<<mystl::max(1,2)<<endl;
+	
 	return 0;
 }
